@@ -173,7 +173,7 @@ Once hosted and tested:
 2. Click “Submit Mini App”
 3. Enter:
    - App Name  
-   - Hosted App URL (e.g. `https://example.com/ftest/`)  
+   - Hosted App URL (e.g. `https://example.com/`)  
    - Manifest URL (same path + `/farcaster.json`)  
    - FID if verified
 
@@ -186,7 +186,7 @@ Once approved, it can be embedded or shared on Warpcast and other clients.
 You can share it using:
 
 ```
-https://miniapps.farcaster.xyz/app?url=https://example.com/ftest/
+https://miniapps.farcaster.xyz/app?url=https://example.com/
 ```
 
 Or integrate it into a Farcaster Frame or post on Warpcast.
@@ -212,3 +212,4 @@ If you create something cool, share it with @twoguysonecat or the Farcaster dev 
 - Powered by [ethers.js](https://docs.ethers.org/)
 - Built for [Farcaster Mini Apps](https://miniapps.farcaster.xyz/)
 - Designed with simplicity in mind
+- By TwoGuysOneCat (https://www.twoguysonecat.com)
