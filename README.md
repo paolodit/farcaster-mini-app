@@ -25,10 +25,10 @@ This is a simple **one-page Farcaster Mini App** that simulates a crypto fortune
 
 ### 1. 🪙 Wallet Address
 
-Inside `index.html` (search for `"to"` in the JavaScript), find the transaction configuration:
+Inside `index.html` (search for `"RECEIVING_ADDRESS"` in the JavaScript), find the transaction configuration:
 
 ```js
-to: '0x1234567890ABCDEF...', // Replace with your actual wallet address
+RECEIVING_ADDRESS: '0x1234567890ABCDEF...', // Replace with your actual wallet address
 ```
 
 Replace with your preferred EVM-compatible wallet address.
@@ -94,7 +94,7 @@ Ensure assets are:
 Host your `index.html`, `farcaster.json`, and any `assets/` on a public domain or subpath, such as:
 
 ```
-https://example.com/ftest/
+https://example.com/
 ```
 
 ### ✅ 2. Use the Farcaster Preview Tool
@@ -102,7 +102,7 @@ https://example.com/ftest/
 Go to:
 
 ```
-https://miniapps.farcaster.xyz/preview?url=https://example.com/ftest/
+https://miniapps.farcaster.xyz/preview?url=https://example.com/
 ```
 
 You'll see how it loads inside Farcaster’s Mini App viewer.
@@ -114,7 +114,7 @@ You'll see how it loads inside Farcaster’s Mini App viewer.
 Must be placed **in the same path as your Mini App**, such as:
 
 ```
-https://example.com/ftest/farcaster.json
+https://example.com/farcaster.json
 ```
 
 Example:
@@ -124,9 +124,9 @@ Example:
   "frame": {
     "version": "1",
     "name": "Fortune Cookie",
-    "iconUrl": "https://example.com/ftest/icon.png",
-    "homeUrl": "https://example.com/ftest/",
-    "splashImageUrl": "https://example.com/ftest/splash.png",
+    "iconUrl": "https://example.com/icon.png",
+    "homeUrl": "https://example.com/",
+    "splashImageUrl": "https://example.com/splash.png",
     "splashBackgroundColor": "#FFF5CC",
     "subtitle": "Crack your crypto fortune",
     "description": "Send a tiny transaction to unlock your fortune!",
