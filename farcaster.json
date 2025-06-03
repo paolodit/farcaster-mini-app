@@ -1,0 +1,8 @@
+{
+  "name": "Farcaster Fortune Cookie",
+  "description": "Pay 0.0005 MON on Monad Testnet to crack open a fortune cookie and reveal your Farcaster fortune.",
+  "url": "https://yourdomain.com/",
+  "icon": "https://yourdomain.com/assets/cookie-icon.png",
+  "tags": ["fortune", "cookie", "Monads", "crypto", "entertainment"],
+  "categories": ["entertainment"]
+}

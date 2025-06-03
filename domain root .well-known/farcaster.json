@@ -1,0 +1,37 @@
+{
+  "accountAssociation": {
+    "header": "<EXAMPLE DATA>",
+    "payload": "<EXAMPLE DATA>",
+    "signature": "<EXAMPLE DATA>"
+  },
+  "frame": {
+    "version": "1",
+    "name": "Farcaster Fortune Cookie",
+    "iconUrl": "https://yourdomain.com/assets/cookie-icon.png",
+    "homeUrl": "https://yourdomain.com/",
+    "subtitle": "Crack open your crypto fortune",
+    "description": "Pay 0.0005 MON on Monad Testnet to crack open a fortune cookie and reveal your Farcaster fortune.",
+    "splashImageUrl": "https://yourdomain.com/assets/cookie-splash.png",
+    "splashBackgroundColor": "#fef9f2",
+    "buttonTitle": "Crack a Fortune",
+    "imageUrl": "https://yourdomain.com/cookie-icon.png",
+    "primaryCategory": "entertainment",
+    "tags": [
+      "fortune",
+      "cookie",
+      "monad",
+      "crypto",
+      "fun"
+    ],
+    "ogTitle": "Farcaster Fortune Cookie",
+    "ogDescription": "Discover your crypto fortune with a 0.0005 MON payment on Monad Testnet!",
+    "ogImageUrl": "https://yourdomain.com/cookie-og.png",
+    "noindex": false,
+    "requiredChains": [
+      "eip155:10143"
+    ],
+    "requiredCapabilities": [
+      "wallet.getEthereumProvider"
+    ]
+  }
+}
